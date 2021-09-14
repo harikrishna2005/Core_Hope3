@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trading", "Trading\Trading.csproj", "{88D542BE-2CC2-46A5-94AE-96A1FE4453FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Core", "Trading.Core\Trading.Core.csproj", "{610E6BA6-71C2-47A8-9F71-18C2B2C82C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trading.Core", "Trading.Core\Trading.Core.csproj", "{610E6BA6-71C2-47A8-9F71-18C2B2C82C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trading.Persistent", "Trading.Persistent\Trading.Persistent.csproj", "{F1E1DA7D-080F-401F-8FF8-3C989BC578D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{610E6BA6-71C2-47A8-9F71-18C2B2C82C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{610E6BA6-71C2-47A8-9F71-18C2B2C82C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{610E6BA6-71C2-47A8-9F71-18C2B2C82C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E1DA7D-080F-401F-8FF8-3C989BC578D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E1DA7D-080F-401F-8FF8-3C989BC578D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E1DA7D-080F-401F-8FF8-3C989BC578D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E1DA7D-080F-401F-8FF8-3C989BC578D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

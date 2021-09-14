@@ -1,0 +1,4 @@
+﻿Server name : TradingSQLServer
+user id : myuser
+Password : myuser
+Database Name : TradingDatabase
